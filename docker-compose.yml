@@ -17,5 +17,4 @@ services:
       - ./api:/usr/src/app
     ports:
       - "3001:3001"
-    command: "npm run start:dev"
     tty: true

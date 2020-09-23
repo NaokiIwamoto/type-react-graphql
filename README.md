@@ -1,4 +1,21 @@
-pages/posts/first-post.js
-\
+# TODO app
 
-a753a5b2312944d9bb2d435eda1c8b6a
+This is a very simple TODO app.
+
+## Running the code
+
+```
+docker-compose up -d
+```
+
+Install all packeges and build every thing automatically.
+
+## Check it in Browser
+
+```
+http://localhost:3000
+```
+
+### Environment
+
+Docker, typescript(react), Graphql

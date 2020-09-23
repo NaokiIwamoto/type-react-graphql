@@ -1,0 +1,7 @@
+/api/dist
+/api/db
+/api/.vscode
+/api/node_modules
+/api/.DS_Store
+/type-react/node_modules
+/type-react/.next

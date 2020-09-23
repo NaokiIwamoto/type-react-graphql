@@ -1,0 +1,21 @@
+version: "3"
+services:
+  node:
+    build:
+      context: .
+    volumes:
+      - ./type-react:/usr/src/app
+    ports:
+      - "3000:3000"
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    tty: true
+  graphql:
+    build:
+      context: .
+    volumes:
+      - ./api:/usr/src/app
+    ports:
+      - "3001:3001"
+    command: "npm run start:dev"
+    tty: true
